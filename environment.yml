@@ -1,0 +1,22 @@
+name: eureqa
+channels:
+  - pytorch
+  - nvidia/label/cuda-12.4.0
+  - conda-forge
+dependencies:
+  - python
+  - pytorch
+  - torchvision
+  - torchaudio
+  - transformers
+  - datasets
+  - tokenizers
+  - ipywidgets
+  - ipython
+  - accelerate
+  - pip
+  - nbconvert
+  - gradio
+  - pip:
+    - evaluate
+    - clearml
